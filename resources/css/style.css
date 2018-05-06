@@ -1,0 +1,19 @@
+/* Remove default margin and padding  */
+* {
+  padding:0;
+  margin:0;
+}
+/* Universal Styles */
+body {
+  font-family:Helvetica; sans-sarif;
+  background-color: black;
+  font-size:22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color:seashell;
+  text-decoration: underline;
+}
