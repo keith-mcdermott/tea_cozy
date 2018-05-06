@@ -17,7 +17,7 @@ a {
   color:seashell;
   text-decoration: underline;
 }
-/* Header */
+/* Header.  Fixed to top of page. */
 header {
   display:flex;
   align-items: center;
@@ -28,11 +28,13 @@ header {
   position: fixed;
   top:0;
   z-index: 1;
+  background-color: black;
 }
 .logo {
   border: 1px solid red;
   height:50px;
   margin-left: 10px;
+  /* Prevent nav elements from moving left up to logo img */
   flex-grow: 1;
   justify-content: flex-start;
   display: flex;
@@ -51,4 +53,26 @@ nav {
   border: 1px solid blue;
   margin-left: auto;
   white-space: nowrap;
+}
+/* Main container */
+.container {
+  width:auto;
+  position: relative;
+  top:69px;
+}
+/* Mission section */
+#mission {
+  background-image: url("../images/img-mission-background.jpg");
+  width:1200px;
+  margin: 0 auto;
+  height: 700px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission-statement {
+  width:1200px;
+  background-color: black;
+  line-height: 2;
 }
