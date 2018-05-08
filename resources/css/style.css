@@ -76,3 +76,70 @@ nav {
   background-color: black;
   line-height: 2;
 }
+/* Tea of the Month Section */
+#featured {
+  width:1000px;
+  border: 1px solid red;
+  margin: 0 auto;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.product-container {
+  width:1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid blue;
+}
+
+.product-container img {
+  height: 200px;
+  width: 300px;
+  margin: 10px auto;
+}
+/* Spacing between flex items to achieve proper layout */
+.space{
+  margin: 0 50px;
+}
+
+.space2 {
+margin: 0 25px;
+}
+
+/* Locations Section */
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  width: 1200px;
+  height: 500px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+.addresses{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background-color: black;
+  height:auto;
+  width:300px;
+  line-height: 2.5;
+  margin: 15px 40px 40px 0;
+  padding: 20px 0px;
+}
+
+/* Footer */
+.contact {
+  line-height: 2.5;
+}
+
+.copyright {
+  margin-top: 30px;
+  margin-left: 20px;
+  text-align: left;
+  padding-bottom: 50px;
+}
