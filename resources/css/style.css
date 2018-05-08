@@ -22,7 +22,6 @@ header {
   display:flex;
   align-items: center;
   width: 100%;
-  border: 1px solid red;
   height:69px;
   border-bottom: 1px solid seashell;
   position: fixed;
@@ -31,32 +30,27 @@ header {
   background-color: black;
 }
 .logo {
-  border: 1px solid red;
   height:50px;
   margin-left: 10px;
-  /* Prevent nav elements from moving left up to logo img */
-  flex-grow: 1;
-  justify-content: flex-start;
-  display: flex;
+  /* Prevent nav elements from moving all the way left to the logo img */
   min-width: 450px;
 }
+
 .logo img {
   height:100%;
   width: auto;
+  float:left;
 }
 nav span {
-  border: 1px solid red;
   display:inline-block;
   padding-right: 20px;
 }
 nav {
-  border: 1px solid blue;
   margin-left: auto;
   white-space: nowrap;
 }
-/* Main container */
+/* Main content container */
 .container {
-  width:auto;
   position: relative;
   top:69px;
 }
@@ -79,8 +73,7 @@ nav {
 /* Tea of the Month Section */
 #featured {
   width:1000px;
-  border: 1px solid red;
-  margin: 0 auto;
+  margin: 80px auto;
   line-height: 2;
   margin-bottom: 50px;
 }
@@ -90,7 +83,6 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 1px solid blue;
 }
 
 .product-container img {
@@ -98,15 +90,13 @@ nav {
   width: 300px;
   margin: 10px auto;
 }
-/* Spacing between flex items to achieve proper layout */
-.space{
+/* Spacing between flex item images to achieve proper layout */
+.img_center{
   margin: 0 50px;
 }
-
-.space2 {
-margin: 0 25px;
+.img_bottom{
+  margin: 0 25px;
 }
-
 /* Locations Section */
 #locations {
   background-image: url("../images/img-locations-background.jpg");
@@ -131,7 +121,6 @@ margin: 0 25px;
   margin: 15px 40px 40px 0;
   padding: 20px 0px;
 }
-
 /* Footer */
 .contact {
   line-height: 2.5;
